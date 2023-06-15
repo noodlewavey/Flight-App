@@ -1,13 +1,134 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.container {
+  position: absolute;
+  min-height: 100vh;
+  background-image: url('https://freight.cargo.site/w/1280/q/94/i/1b75cf02a95307419133fa550d7df9ab7cbf3cedff7f2303a1a1295eb5adf793/tumblr_n2xuoax7Mz1tovbtgo1_1280.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+ 
+}
+
+
+.header{
+  color: #41587d;
+  opacity: 0.6;
+  font-family: 'Space Mono', 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  text-align: left;
+  padding-left: 120px;
+  font-size: 40pt;
+  top: 0;
+  padding: 20px;
+  line-height: 0.5;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.translucent-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  opacity: 0.7;
+  /* Additional styles */
+}
+
+.search{
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  text-align: left;
+}
+
+.light{
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 200;
+  text-align: left;
+  line-height:1;
+
+}
+
+.lightcenter{
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 200;
+  text-align: left;
+  line-height:1; 
+  text-align: center;
+  
+}
+.custom-input{
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.box {
+  font-family: 'Roboto Mono', monospace,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  font-weight: 200;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  opacity: 0.7;
+  margin-left:30px;
+  text-align: left;
+  line-height:1;
+}
+
+.airport-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 50%;
+  max-width: 100%;
+  max-height: 300px;
+  opacity: 0.85;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: opacity 1.6s ease-in;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
